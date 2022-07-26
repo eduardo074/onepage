@@ -96,10 +96,10 @@
                 <div class="conteinerForm">
                     <h2>Entre em contato</h2>
                     <form action="#" method="post">
-                        <input type="text" name="usuario" placeholder="nome">
-                        <input type="email" name="email" placeholder="E-mail">
-                        <input type="tel" name="telefone" placeholder="Telefone">
-                        <textarea  rows="5" cols="33" id="msg" name="mensagem" placeholder="Mensagem"></textarea>
+                        <input type="text" name="usuario" placeholder="nome" required minlength="2">
+                        <input type="email" name="email" placeholder="E-mail" required>
+                        <input type="tel" name="telefone" placeholder="Telefone" required>
+                        <textarea   rows="5" cols="33" id="msg" name="mensagem" required placeholder="Mensagem"></textarea>
                         <input type="submit" value="Enviar Mensagem" id="btnConteiner">
                     </form>
                 </div>
