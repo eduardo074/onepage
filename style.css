@@ -136,6 +136,9 @@ input::placeholder, textarea::placeholder{
     height: 65px;
     margin: 15px 0px;
 }
+textarea{
+    resize: none;
+}
 #msg{
     height: 165px;
     padding-top: 15px ;
